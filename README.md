@@ -1,70 +1,39 @@
-# Getting Started with Create React App
+# 🎨 AI Voice Chatbot Frontend
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## 📌 Overview
+This is the **frontend client** for the **AI Voice Chatbot**.  
+It provides a modern UI where users can **register, login, and chat with an AI assistant** using text or voice.  
+The frontend connects to the **backend API** deployed on Render.
 
-## Available Scripts
+👉 **Backend API (Render):** [https://voice-enabled-ai-chatbot-server.onrender.com/api](https://voice-enabled-ai-chatbot-server.onrender.com/api)  
+👉 **Frontend (Vercel):** `https://voice-enabled-ai-chatbot.vercel.app` *(replace with your actual deployment link)*  
 
-In the project directory, you can run:
+---
 
-### `npm start`
+## ⚡ Features
+- 🎤 **Voice-enabled chat** (Speech-to-Text & Text-to-Speech)  
+- 🔐 **Authentication** (Register, Login, Logout with JWT)  
+- 💬 **AI-powered chat** (via backend → GROQ OpenAI API)  
+- 📜 **Chat history** per user  
+- 🎨 **Modern UI/UX** using **TailwindCSS + Framer Motion**  
+- 🌐 **Seamless integration** with deployed backend  
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+---
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## 🛠️ Tech Stack
+- **React.js (CRA or Vite)**  
+- **TailwindCSS** (styling)  
+- **Framer Motion** (animations)  
+- **Axios** (API calls)  
+- **Lucide-react** (icons)  
+- **Web Speech API** (voice features)  
 
-### `npm test`
+---
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## 🚀 Setup & Installation
 
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+### 1️⃣ Clone Repository
+```bash
+git clone https://github.com/Vasudev290/Voice-Enabled-AI-Chatbot-Client.git
+cd Voice-Enabled-AI-Chatbot-Client
+"# Voice-Enabled-AI-Chatbot-Client" 
