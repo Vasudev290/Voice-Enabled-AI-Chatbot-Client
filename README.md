@@ -6,7 +6,7 @@ It provides a modern UI where users can **register, login, and chat with an AI a
 The frontend connects to the **backend API** deployed on Render.
 
 👉 **Backend API (Render):** [https://voice-enabled-ai-chatbot-server.onrender.com/api](https://voice-enabled-ai-chatbot-server.onrender.com/api)  
-👉 **Frontend (Vercel):** `https://voice-enabled-ai-chatbot.vercel.app` *(replace with your actual deployment link)*  
+👉 **Frontend (Vercel):** `https://voice-enabled-ai-chatbot-client.vercel.app/` *
 
 ---
 
