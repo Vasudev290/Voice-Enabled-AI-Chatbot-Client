@@ -2,11 +2,14 @@ import axios from 'axios';
 
 // Use proxy in development, direct URL in production
 const API_BASE_URL = process.env.NODE_ENV === 'development' 
-  ? '/api'  // Proxy will redirect to your backend
+  ? '/api' 
   : 'https://voice-enabled-ai-chatbot-server.onrender.com/api';
 
 const api = axios.create({
   baseURL: API_BASE_URL,
+  headers: {
+    'Content-Type': 'application/json',
+  },
   withCredentials: true, 
 });
 
