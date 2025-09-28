@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { useSelector, useDispatch } from 'react-redux';
-import { useNavigate } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom';
 import { loginUser, clearError } from '../../slices/authSlice';
 import { Eye, EyeOff, LogIn, Bot } from 'lucide-react';
 import { motion } from 'framer-motion';
@@ -128,9 +128,9 @@ const Login = () => {
         <div className="text-center mt-6">
           <p className="text-blue-200">
             Don't have an account?{' '}
-            <a href="/register" className="text-white hover:underline font-medium">
+            <Link to="/register" className="text-white hover:underline font-medium">
               Sign up here
-            </a>
+            </Link>
           </p>
         </div>
       </motion.div>
